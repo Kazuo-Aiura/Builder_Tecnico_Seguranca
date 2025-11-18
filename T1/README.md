@@ -29,8 +29,12 @@ O padrão Builder ajuda porque evita um construtor enorme e confuso, garante que
 
 git clone https://github.com/Kazuo-Aiura/Builder_Tecnico_Seguranca.git
 cd Builder_Tecnico_Seguranca/T1
+
 npm install
+
 npm run build
+
 npm start
+
 
 
