@@ -1,0 +1,30 @@
+{
+  "name": "t1",
+  "version": "1.0.0",
+  "description": "Exemplo de padrao de projeto Builder em TypeScript para gestao de funcionarios de seguranca do trabalho.",
+  "main": "tec_seg_builder.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx tsc tec_seg_builder.ts",
+    "start": "node tec_seg_builder.js"
+  },
+  "keywords": [
+    "typescript",
+    "design-patterns",
+    "builder",
+    "seguranca-do-trabalho"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
