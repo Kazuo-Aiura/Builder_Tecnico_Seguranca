@@ -21,7 +21,16 @@ Neste projeto:
 - `Funcionario` representa o trabalhador de uma empresa cliente.
 - `FuncionarioBuilder` encapsula a criação passo a passo de um `Funcionario`.
 
-O resultado esperado é demonstrar as informações obrigatórias, assim como definir qual funcionário está apto para determinado tipo de serviço de acordo com o seu certificado de NR.
+O resultado esperado é demonstrar as informações obrigatórias e necessárias para visualização no momento, assim como definir qual funcionário está apto para determinado tipo de serviço de acordo com o seu certificado de NR.
 
 O padrão Builder ajuda porque evita um construtor enorme e confuso, garante que os dados obrigatórios como CPF e nome sempre sejam informados antes de criar o funcionário, permite montar funcionários com diferentes combinações de função, empresa e certificados de forma clara, deixando também o código fácil de manter pois seu caso precisar adicionar novos campos, como telefone ou e-mail, basta incluir novos métodos no FuncionarioBuilder sem quebrar o resto do sistema.
+
+## Execução
+
+git clone https://github.com/Kazuo-Aiura/Builder_Tecnico_Seguranca.git
+cd Builder_Tecnico_Seguranca/T1
+npm install
+npm run build
+npm start
+
 
